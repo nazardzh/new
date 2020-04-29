@@ -11,15 +11,13 @@ public class arrays {
 //           System.out.print("Enter a [" + i +"]=");
 //           local[i] = num.nextInt();
 //       }
-
-
         //new code remove '//'
-//        Scanner num = new Scanner(System.in);
-//        int a;
-//        System.out.println("Enter number of array: ");
-//        a = num.nextInt();
-//        String[] days = {"Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"};
-//        System.out.println("day is: " + days[a - 1]);
+        Scanner num = new Scanner(System.in);
+        int a;
+        System.out.println("Enter number of array: ");
+        a = num.nextInt();
+        String[] days = {"Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"};
+        System.out.println("day is: " + days[a - 1]);
 
     }
 }
