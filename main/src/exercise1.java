@@ -6,7 +6,7 @@ public class exercise1 {
         int[] y;
 
         Scanner num = new Scanner(System.in);
-        System.out.print("Provide value of arrays: ");
+        System.out.print("Provide value of array: ");
         x = num.nextInt();
         y = new int[x];
         for (int i = 0; i < x; i++){
