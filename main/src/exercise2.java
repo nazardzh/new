@@ -12,11 +12,11 @@ public class exercise2 {
             System.out.print("Enter number a ["+ i +"]: ");
             y[i] = num.nextInt();
         }
-        System.out.print("Duplicate elements in an array: ");
+        System.out.print("Duplicate: ");
         for(int i = 0; i < y.length; i++) {
             for(int j = i + 1; j < y.length; j++) {
                 if(y[i] == y[j])
-                    System.out.println(y[j]);
+                    System.out.print( y[j] + "; ");
             }
         }
     }
