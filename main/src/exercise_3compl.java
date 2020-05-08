@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class exercise_1compl {
+public class exercise_3compl {
 
     public static void main(String[] args) {
         int x, y;
