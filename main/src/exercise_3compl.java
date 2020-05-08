@@ -29,7 +29,7 @@ public class exercise_3compl {
                 if(a[i] == b[j]){
 
                     System.out.print(a[i] + "; ");
-                    break;
+
                 }
             }
         }
