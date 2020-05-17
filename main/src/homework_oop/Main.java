@@ -12,6 +12,11 @@ public class Main {
         System.out.println(emploee1.toString());
 
 
+        Emploee emploee2 = new Emploee();
+        emploee2.setSalary(3500);
+        System.out.println("Emploee: " + emploee2.toString());
+
+
 
 
 

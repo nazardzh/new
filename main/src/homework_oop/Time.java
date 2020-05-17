@@ -5,6 +5,10 @@ public class Time {
     private int minute;
     private int second;
 
+    public Time(){
+
+    }
+
     public Time(int hour, int minute, int second){
         this.hour = hour;
         this.minute = minute;
@@ -25,13 +29,19 @@ public class Time {
     public void setMinute(int minute){
         this.minute = minute;
     }
-    public void setSecond(){
-        this.minute = minute;
+    public void setSecond(int second){
+        this.second = second;
     }
-    public void setTime(int hour, int minute, int second){
+    public void setTime(int setHour, int setMinute, int setSecond){
         this.hour = hour;
         this.minute = minute;
         this.second = second;
     }
-
+    public String toString(){return "Time is: hh " + getHour() + " mm " + getMinute() + " ss " + getSecond();}
+    public int nextSecond(){
+        return second + 1;
+    }
+    public int prevSecond(){
+        return second - 1;
+    }
 }

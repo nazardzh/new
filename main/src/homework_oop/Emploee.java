@@ -7,6 +7,10 @@ public class Emploee {
     private int salary;
     public double percent;
 
+    public Emploee(){
+
+    }
+
     public Emploee(int id, String firstName, String lastName, int salary){
         this.id = id;
         this.firstName = firstName;
