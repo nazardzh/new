@@ -1,4 +1,4 @@
-package hw_inherit;
+package hw_inherit_zoo;
 
 public class Zoo {
     Animal animal1 = new Lion();

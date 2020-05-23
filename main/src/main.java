@@ -1,4 +1,4 @@
-import hw_inherit.Zoo;
+import hw_inherit_zoo.Zoo;
 
 public class main{
     public static void main(String[] args){

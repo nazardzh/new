@@ -1,4 +1,4 @@
-package hw_inherit;
+package hw_inherit_zoo;
 
 public class Rhino extends Animal {
     @Override
