@@ -1,6 +1,9 @@
-import Vehicle.Car;
-import Vehicle.Vehicle;
+import hw_inherit.Zoo;
 
-public class main {
-    Vehicle car = new Car();
+public class main{
+    public static void main(String[] args){
+        Zoo animals = new Zoo();
+        animals.enter();
+
+    }
 }
