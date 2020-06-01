@@ -1,19 +1,17 @@
 package hw_inherit_shapes;
 
 public class Rectangle extends Shape {
-    private int width = 3;
-    private int height = 2;
+    private int width ;
+    private int height ;
 
     @Override
     public double getArea() {
         return width * height;
     }
 
-    public void setWidth(int width) {
+    public Rectangle(int width, int height){
+        this.height = height;
         this.width = width;
     }
 
-    public void setHeight(int height) {
-        this.height = height;
-    }
 }

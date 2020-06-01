@@ -1,14 +1,14 @@
 package hw_inherit_shapes;
 
 public class Circle extends Shape {
-    private double radius = 2.2;
+    private double radius;
 
     @Override
     public double getArea() {
         return 3.14 * radius * radius;
     }
 
-    public void setRadius(double radius) {
+    public Circle (double radius){
         this.radius = radius;
     }
 }

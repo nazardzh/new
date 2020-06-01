@@ -1,14 +1,17 @@
 package hw_inherit_shapes;
 
 public class Carpet {
-    public double size;
-    Shape shape1 = new Circle();
-    Shape shape2 = new Square();
-    Shape shape3 = new Rectangle();
-    Shape[] shapes = {shape1, shape2, shape3};
+    Shape[] shapes;
+    public Carpet(Shape[] shapes){
+        this.shapes = shapes;
+    }
 
     public double getSize() {
-        return shape1.getArea() + shape2.getArea() + shape3.getArea();
+     double sum = 0.0;
+     for(Shape shape : shapes){
+         sum = sum + shape.getArea();
+     }
+     return sum;
     }
 }
 

@@ -5,7 +5,7 @@ public abstract class Worker {
     abstract double getSalary();
     abstract String getProfession();
 
-    public void setName(String name) {
+    public Worker(String name){
         this.name = name;
     }
 }

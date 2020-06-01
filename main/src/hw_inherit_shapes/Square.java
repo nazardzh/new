@@ -1,14 +1,14 @@
 package hw_inherit_shapes;
 
 public class Square extends Shape{
-    private int side = 1;
+    private int side ;
 
     @Override
     public double getArea() {
         return side * side;
     }
 
-    public void setSide(int side) {
+    public Square(int side){
         this.side = side;
     }
 }

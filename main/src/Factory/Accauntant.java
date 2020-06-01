@@ -1,14 +1,20 @@
 package Factory;
 
 public class Accauntant extends Worker{
+    private Double salary;
+
+    public Accauntant(String name, Double salary){
+        super(name);
+        this.salary = salary;
+    }
 
     @Override
     double getSalary() {
-        return 4200.0;
+        return salary;
     }
 
     @Override
     String getProfession() {
-        return "Accountant";
+        return getClass().getSimpleName();
     }
 }
