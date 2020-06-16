@@ -7,7 +7,7 @@ public class exercise_2compl
     {
         int m, n, sum = 0;
         Scanner s = new Scanner(System.in);
-        System.out.print("Enter the number:");
+        System.out.print("Enter the number: " );
         m = s.nextInt();
         while(m > 0)
         {
@@ -15,6 +15,6 @@ public class exercise_2compl
             sum = sum + n;
             m = m / 10;
         }
-        System.out.println("Sum of Digits:"+sum);
+        System.out.println("Sum of Digits: " +sum);
     }
 }
